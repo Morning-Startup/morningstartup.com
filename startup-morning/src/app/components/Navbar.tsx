@@ -25,22 +25,20 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <Image
-                src="/assets/img/logo.jpg"
+                src="/assets/img/logo-original.png"
                 alt="Morning Startup Logo"
-                width={40}
-                height={40}
+                width={250}
+                height={250}
                 className="rounded-full"
               />
-              <span className="ml-3 text-xl font-light tracking-tight hidden sm:inline-block">
-                Morning<span className="font-bold">Startup</span>
-              </span>
+      
             </Link>
           </div>
 
           {/* Desktop menu */}
           <div className="hidden sm:flex sm:items-center sm:space-x-1">
             <Link 
-              href="/events" 
+              href="https://www.meetup.com/morning-startup-perth/" 
               className="px-4 py-2 text-sm text-gray-700 hover:text-black hover:bg-gray-50 rounded-full transition"
             >
               Events

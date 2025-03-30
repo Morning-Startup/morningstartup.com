@@ -9,21 +9,22 @@ const team = [
   {
     name: 'Scott Glew',
     role: 'Community Lead',
-    image: '/team/tom.jpg' //
+    image: '/assets/img/team/scott.jpg'
   },
   {
     name: 'Erin Clark',
     role: 'Community Lead',
-    image: '/team/tom.jpg' // 
+    image: '/assets/img/team/erin.jpg'
   },
   {
     name: 'Nina Karisik',
     role: 'Community Lead',
-    image: '/team/tom.jpg' //
-  },  {
+    image: '/assets/img/team/nina.jpg'
+  },  
+  {
     name: 'Dave Newmann',
     role: 'Community Lead',
-    image: '/team/tom.jpg'
+    image: '/assets/img/team/dave.png'
   },
 ]
 
@@ -81,29 +82,33 @@ export default function AboutPage() {
             </div>
           </dl>
         </div>
+      </div>
 
-        {/* Team section */}
-        <div className="mx-auto mt-32 max-w-2xl lg:text-center">
+      {/* Team section */}
+      <div className="mx-auto mt-32 max-w-full bg-gray-50 py-16 sm:py-24">
+        <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Team</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Meet the people behind Morning Startup Perth.
           </p>
         </div>
 
-        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {team.map((person) => (
-            <div key={person.name} className="flex flex-col items-center">
-              <div className="relative w-48 h-48 rounded-full overflow-hidden">
-                <img
-                  className="aspect-[3/2] w-full h-full object-cover"
-                  src={person.image}
-                  alt={person.name}
-                />
+        <div className="mx-auto mt-16 max-w-5xl px-8">
+          <div className="grid grid-cols-1 gap-x-16 gap-y-20 sm:grid-cols-2 md:gap-x-24">
+            {team.map((person) => (
+              <div key={person.name} className="flex flex-col items-center group">
+                <div className="relative w-64 h-64 rounded-full overflow-hidden mb-6 shadow-md bg-white p-1 transform transition duration-300 group-hover:shadow-lg group-hover:scale-105">
+                  <img
+                    className="w-full h-full object-cover rounded-full"
+                    src={person.image}
+                    alt={person.name}
+                  />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">{person.name}</h3>
+                <p className="text-base text-gray-600 mt-1">{person.role}</p>
               </div>
-              <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
-              <p className="text-base leading-7 text-gray-600">{person.role}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
