@@ -13,12 +13,6 @@ const sponsors = [
     website: 'https://www.spacecubed.com'
   },
   {
-    name: 'JTSI',
-    logo: '/assets/img/sponsors/dealroom.png', // Kept as per original code comment
-    description: 'The Department of Jobs, Tourism, Science and Innovation (JTSI - pronounced Jit-see!) offers an amazing array of programs and grants for startups, from early stages to capital raising. They also encourage WA startups to list on Dealroom to strengthen ecosystem advocacy.',
-    website: 'https://www.wa.gov.au/organisation/department-of-jobs-tourism-science-and-innovation'
-  },
-  {
     name: 'Purpose Ventures',
     logo: '/assets/img/sponsors/purpose.jpg', // Kept as per original code comment
     description: 'Purpose Ventures is a venture capital fund based in Perth, Western Australia. They are industry agnostic and invest from Pre-Seed to Series B rounds. They look for purpose-driven founders with ambition to build companies that can have global impact. They also supply us with caffeine! Just tell Joey Zaza you\'re at Morning Startup to get your free coffee!',
@@ -37,16 +31,16 @@ const sponsors = [
     website: 'https://www.beachamgroup.com'
   },
   {
-    name: 'KeepSpace',
-    logo: '/assets/img/sponsors/keepspace.png',
-    description: 'The delicious baked goods attendees enjoy are courtesy of the lovely team at KeepSpace. For e-commerce businesses, they are a 3rd Party Logistics (3PL) provider offering Fulfilment Services, Dead Weight Shipping, Website APIs, and Guaranteed Landing Costs on transparent software.',
-    website: 'https://www.keepspace.com.au'
-  },
-  {
     name: 'Perth Video',
     logo: '/assets/img/sponsors/perthvideo.png',
     description: 'The livestream is provided by the lovely people at PerthVideo.com.au. They offer videography, streaming, and AV work across WA for events of any size, creating engaging video recaps, highlights, and promotional videos for startups. Highly recommended for their accommodating service!',
     website: 'https://www.perthvideo.com.au'
+  },
+  {
+    name: 'Everest Engineering',
+    logo: '/assets/img/sponsors/everest.png',
+    description: 'Everest Engineering partners with founders to design and build high-quality digital products through distributed, senior engineering teams. Whether you need product innovation support or an extension of your in-house team, they bring deep IT consulting expertise to help you ship with confidence.',
+    website: 'https://www.everestengineering.com'
   },
   {
     name: 'Meshpoints',
