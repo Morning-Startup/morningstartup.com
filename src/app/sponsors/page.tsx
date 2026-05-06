@@ -19,12 +19,6 @@ const sponsors = [
     website: 'https://www.purpose.ventures'
   },
   {
-    name: 'AMMO Marketing',
-    logo: '/assets/img/sponsors/ammo.png',
-    description: 'Morning Startup wouldn\'t be possible without the support of the team from AMMO Marketing. They help founders accelerate growth through targeted marketing strategy. Check out their Weird Growth podcast if you haven\'t already - lots of amazing speakers.',
-    website: 'https://www.ammo.marketing'
-  },
-  {
     name: 'Beacham Group',
     logo: '/assets/img/sponsors/beachem.png', // Kept as per original code comment
     description: 'Beacham Group has been another big supporter making this meetup possible. Beacham is a boutique IT and digital professional services recruitment firm. Check them out if you are looking for work or hiring.',
@@ -37,16 +31,22 @@ const sponsors = [
     website: 'https://www.perthvideo.com.au'
   },
   {
-    name: 'Everest Engineering',
-    logo: '/assets/img/sponsors/everest.png',
-    description: 'Everest Engineering partners with founders to design and build high-quality digital products through distributed, senior engineering teams. Whether you need product innovation support or an extension of your in-house team, they bring deep IT consulting expertise to help you ship with confidence.',
-    website: 'https://www.everestengineering.com'
-  },
-  {
     name: 'Meshpoints',
     logo: '/assets/img/sponsors/programsd.png', // Kept as per original code comment
     description: 'Meshpoints supports innovative startups through specialized programs designed to accelerate growth and success in the Perth ecosystem.',
     website: 'https://www.meshpoints.com'
+  },
+  {
+    name: 'Idea to Life',
+    logo: '/assets/img/sponsors/ideatolife.jpeg',
+    description: 'Idea to Life takes founders through the full product development lifecycle — concept design, prototyping, manufacturing, and delivery. Their experience across each stage means they can guide you to the right prototyping approach, production-ready designs, and the correct manufacturing method for your product.',
+    website: 'https://www.ideatolife.com.au'
+  },
+  {
+    name: 'Typeset',
+    logo: '/assets/img/sponsors/Typeset.jpeg',
+    description: 'Typeset helps B2B businesses build content capability in-house through fractional content leadership, award submissions (80% finalist / 67% win rate), and messaging workshops that help founders articulate what they do in language their audience understands — essential for pitching, raising, or selling.',
+    website: 'https://typesetcontent.com'
   }
 ];
 
