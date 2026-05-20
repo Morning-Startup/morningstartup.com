@@ -13,10 +13,10 @@ const sponsors = [
     website: 'https://www.spacecubed.com'
   },
   {
-    name: 'JTSI',
-    logo: '/assets/img/sponsors/dealroom.png', // Kept as per original code comment
-    description: 'The Department of Jobs, Tourism, Science and Innovation (JTSI - pronounced Jit-see!) offers an amazing array of programs and grants for startups, from early stages to capital raising. They also encourage WA startups to list on Dealroom to strengthen ecosystem advocacy.',
-    website: 'https://www.wa.gov.au/organisation/department-of-jobs-tourism-science-and-innovation'
+    name: 'Department of Energy and Economic Diversification',
+    logo: '/assets/img/sponsors/DEED-logo.png',
+    description: 'The Department of Energy and Economic Diversification (DEED) drives Western Australia\'s energy transition and long-term economic growth. They deliver WA Government initiatives supporting the full spectrum of economic activity — from strategic energy planning and large-scale industry to innovative startups and small to medium businesses — and promote the State nationally and internationally to grow trade and investment.',
+    website: 'https://www.wa.gov.au/organisation/department-of-energy-and-economic-diversification'
   },
   {
     name: 'Purpose Ventures',
