@@ -13,6 +13,12 @@ const sponsors = [
     website: 'https://www.spacecubed.com'
   },
   {
+    name: 'Department of Energy and Economic Diversification',
+    logo: '/assets/img/sponsors/DEED-logo.png',
+    description: 'The Department of Energy and Economic Diversification (DEED) drives Western Australia\'s energy transition and long-term economic growth. They deliver WA Government initiatives supporting the full spectrum of economic activity — from strategic energy planning and large-scale industry to innovative startups and small to medium businesses — and promote the State nationally and internationally to grow trade and investment.',
+    website: 'https://www.wa.gov.au/organisation/department-of-energy-and-economic-diversification'
+  },
+  {
     name: 'Purpose Ventures',
     logo: '/assets/img/sponsors/purpose.jpg', // Kept as per original code comment
     description: 'Purpose Ventures is a venture capital fund based in Perth, Western Australia. They are industry agnostic and invest from Pre-Seed to Series B rounds. They look for purpose-driven founders with ambition to build companies that can have global impact. They also supply us with caffeine! Just tell Joey Zaza you\'re at Morning Startup to get your free coffee!',
