@@ -13,34 +13,16 @@ const sponsors = [
     website: 'https://www.spacecubed.com'
   },
   {
-    name: 'Department of Energy and Economic Diversification',
-    logo: '/assets/img/sponsors/DEED-logo.png',
-    description: 'The Department of Energy and Economic Diversification (DEED) drives Western Australia\'s energy transition and long-term economic growth. They deliver WA Government initiatives supporting the full spectrum of economic activity — from strategic energy planning and large-scale industry to innovative startups and small to medium businesses — and promote the State nationally and internationally to grow trade and investment.',
-    website: 'https://www.wa.gov.au/organisation/department-of-energy-and-economic-diversification'
-  },
-  {
     name: 'Purpose Ventures',
     logo: '/assets/img/sponsors/purpose.jpg', // Kept as per original code comment
     description: 'Purpose Ventures is a venture capital fund based in Perth, Western Australia. They are industry agnostic and invest from Pre-Seed to Series B rounds. They look for purpose-driven founders with ambition to build companies that can have global impact. They also supply us with caffeine! Just tell Joey Zaza you\'re at Morning Startup to get your free coffee!',
     website: 'https://www.purpose.ventures'
   },
   {
-    name: 'AMMO Marketing',
-    logo: '/assets/img/sponsors/ammo.png',
-    description: 'Morning Startup wouldn\'t be possible without the support of the team from AMMO Marketing. They help founders accelerate growth through targeted marketing strategy. Check out their Weird Growth podcast if you haven\'t already - lots of amazing speakers.',
-    website: 'https://www.ammo.marketing'
-  },
-  {
     name: 'Beacham Group',
     logo: '/assets/img/sponsors/beachem.png', // Kept as per original code comment
     description: 'Beacham Group has been another big supporter making this meetup possible. Beacham is a boutique IT and digital professional services recruitment firm. Check them out if you are looking for work or hiring.',
     website: 'https://www.beachamgroup.com'
-  },
-  {
-    name: 'KeepSpace',
-    logo: '/assets/img/sponsors/keepspace.png',
-    description: 'The delicious baked goods attendees enjoy are courtesy of the lovely team at KeepSpace. For e-commerce businesses, they are a 3rd Party Logistics (3PL) provider offering Fulfilment Services, Dead Weight Shipping, Website APIs, and Guaranteed Landing Costs on transparent software.',
-    website: 'https://www.keepspace.com.au'
   },
   {
     name: 'Perth Video',
@@ -53,6 +35,18 @@ const sponsors = [
     logo: '/assets/img/sponsors/programsd.png', // Kept as per original code comment
     description: 'Meshpoints supports innovative startups through specialized programs designed to accelerate growth and success in the Perth ecosystem.',
     website: 'https://www.meshpoints.com'
+  },
+  {
+    name: 'Idea to Life',
+    logo: '/assets/img/sponsors/ideatolife.jpeg',
+    description: 'Idea to Life takes founders through the full product development lifecycle — concept design, prototyping, manufacturing, and delivery. Their experience across each stage means they can guide you to the right prototyping approach, production-ready designs, and the correct manufacturing method for your product.',
+    website: 'https://www.ideatolife.com.au'
+  },
+  {
+    name: 'Typeset',
+    logo: '/assets/img/sponsors/Typeset.jpeg',
+    description: 'Typeset helps B2B businesses build content capability in-house through fractional content leadership, award submissions (80% finalist / 67% win rate), and messaging workshops that help founders articulate what they do in language their audience understands — essential for pitching, raising, or selling.',
+    website: 'https://typesetcontent.com'
   }
 ];
 
